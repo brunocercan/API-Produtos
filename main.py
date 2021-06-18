@@ -142,4 +142,4 @@ def converte_inventario(inventarios):
     return list(map(cria_inventario_com_tupla, inventarios))
 #endregion
 
-app.run()
+app.run(host='0.0.0.0')
